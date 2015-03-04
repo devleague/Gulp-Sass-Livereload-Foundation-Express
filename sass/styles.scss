@@ -1,0 +1,46 @@
+@import "partials/settings";
+@import "partials/foundation";
+
+$dark_grey : #333;
+
+body{
+  background-color: $dark_grey;
+}
+
+h1{
+  color: #FF9944;
+}
+h2{
+  color: #C96444;
+}
+h4{
+  color: #CFCFCF;
+}
+
+.content{
+  background-color: #771212;
+}
+
+.people{
+  background-color: #339933;
+
+  .finn{
+    background-color: red;
+  }
+  .jake{
+    background-color: yellow;
+  }
+
+}
+
+.robots{
+  background-color: #3333AA;
+
+  .b-mo{
+    background-color: teal;
+  }
+  .neptr{
+    background-color: grey;
+  }
+}
+
